@@ -1,0 +1,98 @@
+﻿body , html {
+
+    margin:0;
+    padding:0;
+    width:100%;
+
+}
+
+body{
+    width:100%;
+    height:100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/bfd371e25159da2706598a9a309fbbce.jpg);
+    background-position:center;
+    background-size:cover;
+    display:table;
+    font-family:'Mongolian Baiti';
+
+}
+
+.nav{
+    position:fixed;
+    top:0;
+    left:0;
+    margin:0;
+    padding:0;
+    width:100%;
+    height:80px;
+    border-bottom:1px solid rgba(255,255,255,0.8);
+}
+
+.logo{
+    float:left;
+    color:#fff;
+    font-size:36px;
+    font-weight:600;
+    line-height:80px;
+    padding:0 6em;
+
+}
+
+.menu{
+    float:right;
+    line-height:80px;
+
+}
+
+.menu ul{
+    list-style:none;
+
+}
+
+.menu ul li{
+    display:inline-block;
+}
+
+.menu ul li a{
+    text-decoration:none;
+    color:#fff;
+    font-size:16px;
+    font-weight:lighter;
+    padding:0 22px;
+
+}
+
+ul li:nth-child(5) a {
+    color:#009f8b;
+    border:1px solid #009f8b;
+    padding:10px 20px;
+    border-radius:4px;
+
+
+}
+
+
+.header{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.header h1{
+    color:#fff;
+    font-size:60px;
+    font-weight:lighter;
+
+}
+
+
+.header button
+{
+    color:#fff;
+    background:#009f8b;
+    padding:18px 38px;
+    border:none;
+    font-size:14px;
+
+}
